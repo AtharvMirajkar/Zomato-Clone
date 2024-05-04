@@ -39,6 +39,15 @@
   .partner-card p {
     font-size: 0.9rem;
   }
+
+  .product-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .product-card {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 450px) {

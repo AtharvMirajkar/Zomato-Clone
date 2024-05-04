@@ -306,3 +306,38 @@ header {
   font-size: 16px;
   padding-left: 15px;
 }
+
+/* products  */
+
+.products {
+  background-color: white;
+  margin-top: 40px;
+  padding-block: 60px;
+}
+
+.product-section {
+  justify-content: space-between;
+}
+
+.product-card {
+  width: 30%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  font-size: 1.4rem;
+}
+
+.product-card p {
+  font-size: 1.1rem;
+  color: #4f4f56;
+  line-height: 24px;
+}
+
+.product-card a {
+  color: #2781e7;
+  font-size: 18px;
+}
