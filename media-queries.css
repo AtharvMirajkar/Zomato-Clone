@@ -40,13 +40,8 @@
     font-size: 0.9rem;
   }
 
-  .product-section {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .product-card {
-    width: 50%;
+  .search-section {
+    margin-top: 200%;
   }
 }
 
@@ -104,6 +99,14 @@
   }
 
   .steps-card {
+    width: 90%;
+  }
+
+  .product-section {
+    flex-direction: column;
+  }
+
+  .product-card {
     width: 90%;
   }
 }
