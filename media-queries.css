@@ -41,7 +41,27 @@
   }
 
   .search-section {
-    margin-top: 200%;
+    margin-top: 180%;
+  }
+
+  .search-section p {
+    font-size: 0.9rem;
+  }
+
+  .search-place {
+    height: 40px;
+  }
+
+  .product-card h3 {
+    font-size: 1rem;
+  }
+
+  .product-card p {
+    font-size: 0.9rem;
+  }
+
+  .product-card a {
+    font-size: 0.9rem;
   }
 }
 
