@@ -1,0 +1,100 @@
+@media screen and (max-width: 990px) {
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .container {
+    width: 98%;
+  }
+
+  .header-container {
+    width: 95%;
+  }
+
+  .work {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .order-title {
+    font-size: 22px;
+  }
+
+  .order-text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .order-card {
+    justify-content: flex-start;
+    height: 400px;
+  }
+
+  .partner-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  header {
+    height: 55vh;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .login-btn {
+    padding: 6px 12px;
+    font-size: 15px;
+  }
+
+  .advertise {
+    font-size: 15px;
+  }
+
+  .btn-grp {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn1 {
+    width: 100%;
+  }
+
+  .btn2 {
+    width: 100%;
+  }
+
+  .count-card {
+    flex-direction: column;
+  }
+
+  .main-card {
+    width: 90%;
+  }
+
+  .work-card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .steps-card {
+    width: 90%;
+  }
+}

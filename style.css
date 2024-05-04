@@ -1,0 +1,270 @@
+/* //Resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-text-color: #363636;
+}
+
+body {
+  font-family: Okra, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* Utility classes  */
+
+.container {
+  width: 55%;
+  margin-inline: auto;
+}
+
+.header-container {
+  width: 65%;
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.mb-2 {
+  margin-bottom: 15px;
+}
+
+.mb-4 {
+  margin-bottom: 25px;
+}
+
+.mt-4 {
+  margin-top: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.small {
+  font-size: 0.9rem;
+  color: #4f4f56;
+  text-align: center;
+}
+
+/* Header section  */
+
+header {
+  background-image: url("./assets/asset\ 1.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 70vh;
+}
+
+.logo img {
+  width: 120px;
+}
+
+.main-nav {
+  justify-content: space-between;
+  padding-block: 15px;
+}
+
+.nav-links ul {
+  justify-content: end;
+  gap: 40px;
+}
+
+.advertise {
+  font-family: Okra, Helvetica, sans-serif;
+  font-size: 20px;
+
+  color: white;
+}
+
+.login-btn {
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.header-text {
+  color: white;
+  margin-top: 15px;
+  padding: 15px;
+}
+
+.btn-grp {
+  justify-content: space-between;
+  text-align: center;
+}
+
+.btn1 {
+  width: 49%;
+  padding: 16px 18px;
+  background-color: #2781e7;
+  border-radius: 6px;
+}
+
+.btn2 {
+  width: 49%;
+  padding: 16px 18px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+
+/* Order card   */
+
+.order-card {
+  font-family: Okra, Helvetica, sans-serif;
+  color: var(--main-text-color);
+  background-color: white;
+  border-radius: 6px;
+  margin-top: -24px;
+  margin-bottom: 50px;
+  height: 300px;
+  padding: 30px;
+  position: relative;
+}
+
+.order-title {
+  font-size: 30px;
+}
+
+.order-text {
+  justify-content: space-around;
+}
+
+.left-text {
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.right-text {
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.tick-icon {
+  background-color: #3ab757;
+  color: white;
+  padding: 1px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+/* Why partner  */
+
+.partner-card {
+  color: var(--main-text-color);
+  position: relative;
+  padding-block: 60px;
+
+  background-color: white;
+}
+
+.partner-card p {
+  color: #696969;
+  font-size: 20px;
+}
+
+/* count-card  */
+
+.count-card {
+  margin-top: 60px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.main-card {
+  width: 30%;
+  justify-content: center;
+  align-items: flex-start;
+  padding-block: 30px;
+  gap: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(28, 28, 28, 0.1) 0px 4px 16px 0px;
+}
+
+.main-card h4 {
+  color: #518cf1;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.main-card p {
+  font-size: 18px;
+}
+
+/* How its working   */
+
+.work {
+  background-image: url("./assets/how_works_bg.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 70vh;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+
+.work h1 {
+  margin-top: 40px;
+}
+
+.work-card {
+  margin-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.steps-card {
+  width: 30%;
+  padding: 40px 5px 10px 5px;
+
+  gap: 10px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.steps-card h4 {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.steps-card p {
+  color: #4f4f4f;
+}
